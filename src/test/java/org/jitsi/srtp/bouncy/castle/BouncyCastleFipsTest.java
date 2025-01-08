@@ -87,7 +87,7 @@ public class BouncyCastleFipsTest {
 
         // **6. Create a Dummy RTP Packet**
 
-        byte[] rtpData = new byte[160]; // Example RTP packet size
+        byte[] rtpData = new byte[172]; // Example RTP packet size
         int previousRoc = 0;
         for (int packetsCounter = 0; packetsCounter < 200000; packetsCounter++) {
 
